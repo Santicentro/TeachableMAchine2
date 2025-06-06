@@ -11,7 +11,7 @@ let ImageModelURL = "https://teachablemachine.withgoogle.com/models/yQrQqDKsx/";
 function preload() {
 
     classifier = ml5.imageClassifier(ImageModelURL + "model.json");
-    img = loadImage("image/freelife.jpg");
+    img = loadImage("image/Freelife.jpg");
     imgA = loadImage("image/iPhone.jpeg");
     imgB= loadImage("image/botella.jpg");
     imgC= loadImage("image/Santiago.png");
